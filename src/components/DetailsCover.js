@@ -7,7 +7,7 @@ export const DetailsCover = ({ details }) => {
       <Content>
           <BackgroundImg style={{backgroundImage: `url(https://image.tmdb.org/t/p/w1280/${details.backdrop_path})`}}/> 
                 <Card>
-                        <img src={`https://image.tmdb.org/t/p/w300/${details.poster_path ? details.poster_path : details.backdrop_path}`}  alt={details.title} />
+                        <img src={`https://image.tmdb.org/t/p/w300/${details.poster_path ? details.poster_path : details.backdrop_path}`} className='blur' alt={details.title} />
                     <Meta>
                         <h1>{details.name ? details.name : details.title}</h1> 
                         <p>Release:</p>

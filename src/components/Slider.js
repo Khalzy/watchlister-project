@@ -22,10 +22,9 @@ const [Genres, setGenre] = useState([])
 
     const getGenres = (ids) => {
        return ids.map(id => {
-            // eslint-disable-next-line
+               // eslint-disable-next-line array-callback-return
                return  Genres.map(genre => {
-                    // eslint-disable-next-line
-                     if ( genre.id == id ) {
+                     if ( genre.id === id ) {
                          const genres = `${genre.name}  `
                         return genres
                     }

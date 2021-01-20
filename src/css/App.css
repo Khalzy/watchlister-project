@@ -14,10 +14,7 @@ body {
   margin: 0;
   width: 100%;
 }
-.feEjqj {
-  -webkit-filter: blur(0px);
-  filter: blur(0px);
-}
+
 .container {
   width: fit-content;
   margin: 20px;
@@ -27,9 +24,9 @@ body {
   margin: 0px !important;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: auto;
+@media (max-width: 900px) {
+  .blur {
+    filter: none;
   }
 }
 
