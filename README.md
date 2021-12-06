@@ -1,8 +1,13 @@
 Reupload project
 
-# Getting Started with Create React App
+# Getting Started with Watchlister
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+This watchlister website uses moviedb api to display the lateste movies and add them to a watch or watched list
+
+## Check the live Website here
+https://your-watchlister.web.app/
+
 
 ## Available Scripts
 
